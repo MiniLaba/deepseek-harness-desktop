@@ -1,6 +1,6 @@
 {
   "name": "deepseek-harness-desktop",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Desktop launcher for DeepSeek Harness",
   "private": true,
   "main": "src/main.mjs",

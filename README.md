@@ -6,10 +6,10 @@ An unofficial desktop wrapper for [DeepSeek Harness](https://github.com/deepseek
 
 Download the latest installers from [GitHub Releases](https://github.com/MiniLaba/deepseek-harness-desktop/releases/latest):
 
-- macOS Apple Silicon: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.4/DeepSeek.Harness.Desktop-0.1.4-arm64.dmg)
-- macOS Intel: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.4/DeepSeek.Harness.Desktop-0.1.4.dmg)
-- Windows installation: [Setup EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.4/DeepSeek.Harness.Desktop.Setup.0.1.4.exe)
-- Windows portable: [EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.4/DeepSeek.Harness.Desktop.0.1.4.exe)
+- macOS Apple Silicon: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.5/DeepSeek.Harness.Desktop-0.1.5-arm64.dmg)
+- macOS Intel: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.5/DeepSeek.Harness.Desktop-0.1.5.dmg)
+- Windows installation: [Setup EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.5/DeepSeek.Harness.Desktop.Setup.0.1.5.exe)
+- Windows portable: [EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.5/DeepSeek.Harness.Desktop.0.1.5.exe)
 
 The macOS app is ad-hoc signed but not Apple-notarized, and the Windows app is not code-signed. macOS Gatekeeper and Windows SmartScreen may require an explicit confirmation before first use.
 
@@ -40,4 +40,4 @@ The app binds DeepSeek Harness to `127.0.0.1` and stores its local state in the 
 
 ## License and attribution
 
-This wrapper is MIT licensed. DeepSeek Harness is an independent MIT-licensed project maintained by DeepSeek AI; see its [repository](https://github.com/deepseek-ai/deepseek-harness) and third-party notices for its licenses.
+This wrapper is MIT licensed. DeepSeek Harness is an independent MIT-licensed project maintained by DeepSeek AI; see its [repository](https://github.com/deepseek-ai/deepseek-harness) and third-party notices for its licenses. The DeepSeek name and logo belong to DeepSeek AI and are used here to identify the bundled upstream project; this wrapper is not an official DeepSeek release.
