@@ -13,6 +13,16 @@ Download the latest installers from [GitHub Releases](https://github.com/MiniLab
 
 The installers are unsigned. macOS Gatekeeper and Windows SmartScreen may require an explicit confirmation before first use.
 
+### Open on macOS
+
+After moving the app to `Applications`, Control-click **DeepSeek Harness** and choose **Open**, then choose **Open** again in the confirmation window. You only need to do this once.
+
+If macOS still prevents it from opening, first make sure you downloaded it from this repository, then run the following command in Terminal:
+
+```sh
+xattr -dr com.apple.quarantine "/Applications/DeepSeek Harness.app"
+```
+
 ## Development
 
 ```sh
