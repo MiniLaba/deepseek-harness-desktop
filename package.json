@@ -1,6 +1,6 @@
 {
   "name": "deepseek-harness-desktop",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Desktop launcher for DeepSeek Harness",
   "private": true,
   "main": "src/main.mjs",
@@ -29,6 +29,7 @@
       "package.json"
     ],
     "mac": {
+      "icon": "build/icon.icns",
       "target": [
         "dmg",
         "zip"
@@ -39,6 +40,7 @@
       "identity": "-"
     },
     "win": {
+      "icon": "build/icon.ico",
       "target": [
         "nsis",
         "portable"
