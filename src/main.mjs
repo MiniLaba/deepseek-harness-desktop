@@ -59,7 +59,7 @@ async function startHarness() {
   const dshHome = path.join(app.getPath('userData'), 'dsh')
   await mkdir(dshHome, { recursive: true })
 
-  harnessProcess = spawn(process.execPath, [dshEntryPoint(), 'web', '--host', '127.0.0.1', '--port', String(port)], {
+  harnessProcess = spawn(process.execPath, ['--expose-internals', dshEntryPoint(), 'web', '--host', '127.0.0.1', '--port', String(port)], {
     cwd: dshHome,
     env: {
       ...process.env,
