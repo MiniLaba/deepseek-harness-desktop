@@ -61,6 +61,7 @@ jobs:
           path: release
           merge-multiple: true
           run-id: ${{ inputs.source_run_id || github.run_id }}
+          github-token: ${{ github.token }}
       - run: gh release create "${RELEASE_TAG}" release/* --generate-notes --title "DeepSeek Harness Desktop ${RELEASE_TAG}"
         env:
           GH_TOKEN: ${{ github.token }}
