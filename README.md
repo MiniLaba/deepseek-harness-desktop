@@ -6,12 +6,12 @@ An unofficial desktop wrapper for [DeepSeek Harness](https://github.com/deepseek
 
 Download the latest installers from [GitHub Releases](https://github.com/MiniLaba/deepseek-harness-desktop/releases/latest):
 
-- macOS Apple Silicon: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.2/DeepSeek.Harness.Desktop-0.1.0-arm64.dmg)
-- macOS Intel: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.2/DeepSeek.Harness.Desktop-0.1.0.dmg)
-- Windows installation: [Setup EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.2/DeepSeek.Harness.Desktop.Setup.0.1.0.exe)
-- Windows portable: [EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.2/DeepSeek.Harness.Desktop.0.1.0.exe)
+- macOS Apple Silicon: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.3/DeepSeek.Harness.Desktop-0.1.3-arm64.dmg)
+- macOS Intel: [DMG](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.3/DeepSeek.Harness.Desktop-0.1.3.dmg)
+- Windows installation: [Setup EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.3/DeepSeek.Harness.Desktop.Setup.0.1.3.exe)
+- Windows portable: [EXE](https://github.com/MiniLaba/deepseek-harness-desktop/releases/download/v0.1.3/DeepSeek.Harness.Desktop.0.1.3.exe)
 
-The installers are unsigned. macOS Gatekeeper and Windows SmartScreen may require an explicit confirmation before first use.
+The macOS app is ad-hoc signed but not Apple-notarized, and the Windows app is not code-signed. macOS Gatekeeper and Windows SmartScreen may require an explicit confirmation before first use.
 
 ### Open on macOS
 
