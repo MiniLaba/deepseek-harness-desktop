@@ -62,7 +62,7 @@ jobs:
           merge-multiple: true
           run-id: ${{ inputs.source_run_id || github.run_id }}
           github-token: ${{ github.token }}
-      - run: find release -type f \( -name '*.dmg' -o -name '*.zip' -o -name '*.exe' -o -name '*.blockmap' \) -print0 | xargs -0 gh release create "${RELEASE_TAG}" --generate-notes --title "DeepSeek Harness Desktop ${RELEASE_TAG}"
+      - run: find release -maxdepth 2 -type f \( -name '*.dmg' -o -name '*.zip' -o -name '*.exe' -o -name '*.blockmap' \) -print0 | xargs -0 gh release create "${RELEASE_TAG}" --generate-notes --title "DeepSeek Harness Desktop ${RELEASE_TAG}"
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ inputs.release_tag || github.ref_name }}
